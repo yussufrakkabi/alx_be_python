@@ -1,3 +1,5 @@
+# main.py
+
 from library_system import Book, EBook, PrintBook, Library
 
 def main():
@@ -9,7 +11,7 @@ def main():
     digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
     paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
-    # Add books to the library
+    # Add books to the Library
     my_library.add_book(classic_book)
     my_library.add_book(digital_novel)
     my_library.add_book(paper_novel)
